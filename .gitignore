@@ -1,0 +1,11 @@
+@"
+.env
+*.pem
+*.key
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env.*
+aws-credentials*
+"@ | Set-Content .gitignore
